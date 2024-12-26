@@ -665,8 +665,10 @@ video {
 
 .button-login {
   width: 91px;
-  height: 33px;
-  border-radius: 10px 10px 10px 10px;
+  height: 50px;
+  padding: 16px 20.95px 16px 20px;
+  border-radius: 42px 42px 42px 42px;
+  gap: 0px;
   opacity: 0px;
   background-color: #4335de;
   color: #ffffff;
