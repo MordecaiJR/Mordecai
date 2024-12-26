@@ -5,31 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Header com TailwindCSS</title>
     <link rel="stylesheet" href="output.css" />
-    <link href="assets\css\_style.css" rel="stylesheet" />
+    <link href="assets/css/_style.css" rel="stylesheet" />
   </head>
 
-  <!-- Cabeçalho -->
-  <header class="h-[102px] bg-[#E7EFFA]">
-    <!--Logo-->
-    <div class="flex justify-between items-center">
-      <div>
-        <img
-          src="assets/imagens/logo.svg.png"
-          alt="logo"
-          class="w-[157px] h-[54px] ml-[120px] mt-[24px] mb-[24px]"
-        />
+  <body class="bg-gray-100 m-0 p-0">
+    <!-- Cabeçalho -->
+    <header
+      class="h-[102px] bg-[#E7EFFA] flex justify-between items-center px-8">
+        <!--Logo-->
+        <div class="ml-[120px]">
+          <img
+            src="assets/imagens/logo.svg.png"
+            alt="logo"
+            class="w-[157px] h-[54px] ml-[120px] mt-[24px] mb-[24px]"/>
+        </div>
+        <!-- Menu -->
+        <div class="flex gap-6 pr-[20px]">
+          <p class="me-14">Iphone</p>
+          <p class="me-14">Android</p>
+          <p class="me-14">Help</p>
+          <p class="me-14">Company</p>
+          <!-- Botão -->
+          <button class="me-25 button-login">Sign in</button>
+        </div>
       </div>
-      <!-- Menu -->
-      <div class="flex pe-5">
-        <p class="me-14">Iphone</p>
-        <p class="me-14">Android</p>
-        <p class="me-14">Help</p>
-        <p class="me-14">Company</p>
-        <!-- Botão -->
-        <button class="me-25 button-login">Sign in</button>
+    </header>
+
+    <!-- Estrutura principal -->
+    <main class="flex flex-col items-center gap-4 ">
+
+
+      <div class="w-[1440px] h-[708px]">
+        <!-- Conteúdo da div aqui -->
+        <div class="w-[1,086px] h-[461.25px] mt-[123.38px] ml-[177px] pr-[196px] gap-[15px]">
+
+        <div class="w-[633.5px] h-[461.25px] ml-[15px]">
+          <h1
+              class="font-inter text-[60px] font-extrabold leading-[75px] tracking-[-1.2px] text-left text-customBlack">
+              Your mobile privacy is our mission
+          </h1>
+
+        <div class="w-[597.89px] h-[82px]">
+
+          <p class="font-inter text-[20px] font-normal leading-[30px] mt-[52px] text-CustomText ">
+            Think your phone has been hacked? Our trusted apps make it easy for you to scan, detect and remove threats from your iPhone and Android devices.
+
+          </p>
+          <div class="flex gap-[48px] mt-[96px]">
+          <!--Botão da main-->
+          <button class="w-[280px] h-[54.5px]  rounded-[42px]  pl-[20px]   bg-customBg text-white flex justify-between items-center ">
+            <!-- Texto dentro de um span -->
+            <span class="font-inter leading-[22.5px] text-[19px] font-extrabold text-CustomText  whitespace-nowrap ">
+              Get Certo for iPhone
+            </span>
+          
+            <!-- Imagem da seta dentro do botão -->
+            <img src="assets/imagens/span_after.png" alt="Seta" class="w-[20px] h-[14px] opacity-[1] ml-[11px] mr-[20px] " />
+          </button>
+          <!--Botão da Direita-->
+          <button class="w-[247.59px] h-[54.5px] rounded-[42px] flex justify-center items-center px-[20px] py-[20px] shadow-[0px_0px_0px_2px_#02033B_inset]  ">
+            <!-- Texto dentro de um span -->
+            <span class="font-inter leading-[22.5px] text-[19px] font-extrabold text-customBlack whitespace-nowrap">
+              Get Certo for Android
+            </span>
+          </button>
+          </div>
+          
+          </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </header>
-  <!-- Estruturas -->
-  <body class="bg-gray-100 m-0 p-0"></body>
+    </main>
+  </body>
 </html>
